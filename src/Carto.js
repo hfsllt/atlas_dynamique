@@ -596,86 +596,101 @@ export default ({ data }) => {
             options={options_metro}
           />
         </Col>
-        <Col xs={3}>
-          <Row xs={2}>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_reu}
-            />
-          </Row>
-          <Row xs={2}>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_may}
-            />
-          </Row>
-          <Row xs={2}>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_guy}
-            />
-          </Row>
-          <Row xs={2}>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_mart}
-            />
-          </Row>
-          <Row xs={2}>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_guad}
-            />
-          </Row>
+        <Col xs={6}>
+          <Container>
+            <Row>
+              <Col xs={1}>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_reu}
+                />
+              </Col>
+              <Col xs={1}>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_guy}
+                />
+              </Col>
+              <Col xs={1}>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_guad}
+                />
+              </Col>
+              <Col xs={1}>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_may}
+                />
+              </Col>
+              <Col xs={1}>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_mart}
+                />
+              </Col>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_guad}
+                />
+              </Col>
+            </Row>
+          </Container>
         </Col>
         <Col xs={3}>
-          <Row>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_uturoa}
-            />
-          </Row>
-          <Row>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options}
-            />
-          </Row>
-          <Row>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_futuna}
-            />
-          </Row>
-          <Row>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_wallis}
-            />
-          </Row>
-          <Row>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_nc}
-            />
-          </Row>
-          <Row>
-            <HighchartsReact
-              highcharts={Highcharts}
-              constructorType={"mapChart"}
-              options={options_st_martin}
-            />
-          </Row>
+          <Container>
+            <Row>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_uturoa}
+                />
+              </Col>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options}
+                />
+              </Col>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_futuna}
+                />
+              </Col>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_wallis}
+                />
+              </Col>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_nc}
+                />
+              </Col>
+              <Col>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_st_martin}
+                />
+              </Col>
+            </Row>
+          </Container>
         </Col>
       </Row>
     </Container>
