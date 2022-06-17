@@ -589,49 +589,29 @@ export default ({ data }) => {
   return (
     <Container>
       <Row>
-        <Col xs={6}>
+        <Col md={6}>
           <HighchartsReact
             highcharts={Highcharts}
             constructorType={"mapChart"}
             options={options_metro}
           />
         </Col>
-        <Col xs={6}>
+        <Col md={6}>
           <Container>
             <Row>
-              <Col xs={1}>
+              <Col>
                 <HighchartsReact
                   highcharts={Highcharts}
                   constructorType={"mapChart"}
                   options={options_reu}
+                  style={{ backgroundColor: "lightblue", height: "100px" }}
                 />
               </Col>
-              <Col xs={1}>
+              <Col>
                 <HighchartsReact
                   highcharts={Highcharts}
                   constructorType={"mapChart"}
                   options={options_guy}
-                />
-              </Col>
-              <Col xs={1}>
-                <HighchartsReact
-                  highcharts={Highcharts}
-                  constructorType={"mapChart"}
-                  options={options_guad}
-                />
-              </Col>
-              <Col xs={1}>
-                <HighchartsReact
-                  highcharts={Highcharts}
-                  constructorType={"mapChart"}
-                  options={options_may}
-                />
-              </Col>
-              <Col xs={1}>
-                <HighchartsReact
-                  highcharts={Highcharts}
-                  constructorType={"mapChart"}
-                  options={options_mart}
                 />
               </Col>
               <Col>
@@ -641,10 +621,24 @@ export default ({ data }) => {
                   options={options_guad}
                 />
               </Col>
+              <Col >
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_may}
+                />
+              </Col>
+              <Col >
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  constructorType={"mapChart"}
+                  options={options_mart}
+                />
+              </Col>
             </Row>
           </Container>
         </Col>
-        <Col xs={3}>
+        <Col md={3}>
           <Container>
             <Row>
               <Col>
